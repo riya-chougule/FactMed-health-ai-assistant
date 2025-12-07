@@ -80,8 +80,10 @@ The response undergoes a self-audit to ensure its validity and safety. The syste
 The app provides links to trusted medical research sources (such as PubMed, NIH, etc.) for further reading, so users can explore more about the answer.
 
 ## User Interface
-<img width="600" height="500" alt="UI-1A.png" src="UI-1A.png">
-<img width="600"  height="500" alt="UI-1B.png" src="UI-1B.png">
+<img width="600" height="570" alt="UI-1A.png" src="UI-1A.png">
+<img width="600"  height="570" alt="UI-1B.png" src="UI-1B.png">
+_________________________________________________________________________
 
-<img width="600" height="500" alt="UI-2.png" src="UI-2.png">
+## Safety screening
+<img width="600" height="570" alt="UI-2.png" src="UI-2.png">
 
