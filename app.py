@@ -136,13 +136,13 @@ if st.session_state.user_question:
     # -------------------------------
     # Display Answer
     # -------------------------------
-    st.subheader("✅ Answer")
+    st.subheader("Answer")
     st.write(result["answer"])
 
     # -------------------------------
     # Verified Citations / Trusted Pages
     # -------------------------------
-    st.subheader("📚 Verified Citations / Trusted Pages")
+    st.subheader("Verified Citations / Trusted Pages")
     if len(result["citations"]) == 0:
         st.write("No verified citations available.")
     else:
@@ -152,7 +152,7 @@ if st.session_state.user_question:
     # -------------------------------
     # Self-Audit Report
     # -------------------------------
-    st.subheader("📝 Self-Audit Report")
+    st.subheader("Self-Audit Report")
     with st.spinner("Performing self-audit..."):
         audit = self_audit(result["answer"])
 
