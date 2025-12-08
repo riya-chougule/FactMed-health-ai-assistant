@@ -35,16 +35,19 @@ Activate the virtual environment:
 
 On macOS/Linux:
 
-```source venv/bin/activate
+```
+source venv/bin/activate
 ```
 
 On Windows:
 
-```venv\Scripts\activate
+```
+venv\Scripts\activate
 ```
 
 ### 3. Install dependencies:
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 ### 4. Set up OpenAI API key:
@@ -53,16 +56,19 @@ Make sure you have an OpenAI API key and set it in your environment variables:
 
 On macOS/Linux:
 
-```export OPENAI_API_KEY="your-api-key"
+```
+export OPENAI_API_KEY="your-api-key"
 ```
 
 On Windows:
 
-```set OPENAI_API_KEY="your-api-key"
+```
+set OPENAI_API_KEY="your-api-key"
 ```
 
 ### 5. Run the app:
-```streamlit run app.py
+```
+streamlit run app.py
 ```
 
 
